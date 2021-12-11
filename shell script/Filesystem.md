@@ -9,8 +9,7 @@
 |/etc|The /etc directory contains all the system-wide configuration files. It also contains a collection of shell scripts that start each of the system services at boot time. Everything in this directory should be readable text. While everything in /etc is interesting, here are some all-time favorites: /etc/crontab, a file that defines when automated jobs will run; /etc/fstab, a table of storage devices and their associated mount points; and /etc/passwd, a list of the user accounts.|
 | /home|In normal configurations, each user is given a directory in /home. Ordinary users can write files only in their home directories. This limitation protects the system from errant user activity.|
 | /lib|Contains shared library files used by the core system programs. These are similar to dynamic link libraries (DLLs) in Windows.|
-| /lost+found|
-Each formatted partition or device using a Linux file system, such as ext3, will have this directory. It is used in the case of a partial recovery from a file system corruption event. Unless something really bad has happened to your system, this directory will remain empty.|
+| /lost+found|Each formatted partition or device using a Linux file system, such as ext3, will have this directory. It is used in the case of a partial recovery from a file system corruption event. Unless something really bad has happened to your system, this directory will remain empty.|
 | /media|On modern Linux systems, the /media directory will contain the mount points for removable media such as USB drives, CD-ROMs, and so on, that are mounted automatically at insertion.|
 | /mnt|On older Linux systems, the /mnt directory contains mount points for removable devices that have been mounted manually.|
 | /opt|The /opt directory is used to install “optional” software. This is mainly used to hold commercial software products that might be installed on the system.|
